@@ -67,8 +67,19 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-a:visited { color: purple; }     /* Visited links */
-/* Basic */
+.ex1{
+transition: color 1s;
+}
+.ex1.ex1:hover{
+	color:blue
+}
+.ex1.ex1:active{
+	color:red
+}
+.ex1.ex1:visited{
+	color:rgb(184, 35, 184)
+}
+
 
 	@-ms-viewport {
 		width: device-width;
