@@ -29,8 +29,9 @@ body {
 	line-height: 1;
 }
 
-ol, ul {
-	list-style: none;
+ol, ul{
+	margin: 0px;
+	display: inline;
 }
 
 blockquote, q {
